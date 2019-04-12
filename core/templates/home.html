@@ -7,22 +7,27 @@
     <meta
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="{% static "css/styles.css" %}">
+
     <title>jlcontraincendio</title>
+    <link rel="stylesheet" href="{% static "css/normalize.css" %}">
+    <link rel="stylesheet" href="{% static "css/styles.css" %}">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="" alt="">
-        </div>
-        <ul class="menu">
-            <li>Inicio</li>
-            <li>Nosotros</li>
-            <li>Soluciones</li>
-            <li>Experiencia</li>
-            <li>Contacto</li>
-        </ul>
+    <nav class="nav">
+{#            <div class="logo">#}
+{#                <img src="" alt="">#}
+{#            </div>#}
+            <header class="main-header">
+                <ul class="menu">
+                    <li class="menu-item"><a class="menu-link" href="#">Inicio</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">Nosotros</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">Soluciones</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">Experiencia</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">Contacto</a></li>
+                </ul>
+            </header>
 
+        </nav>
         <div class="banner">
             <img src="" alt="">
             <h1>Sistemas Contra Incendio</h1>
@@ -107,6 +112,5 @@
             </footer>
         </div>
 
-    </header>
 </body>
 </html>

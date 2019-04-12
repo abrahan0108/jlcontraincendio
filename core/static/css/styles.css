@@ -1,3 +1,42 @@
-h1 {
-    font-size: 3em;
+:root {
+    --primary-color: #cc3333;
+    --secondary-color: #bbcccc;
+    --tertiary-color: #523;
+    --text-color: #566;
+}
+
+.main-header{
+    background-color: var(--primary-color);
+    width: auto;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    float: right;
+    /*background: var(--primary-color);*/
+    /*float: right;*/
+}
+
+.top-right{
+    float: right;
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu-item:hover {
+    background: rgba(0, 0, 0, .5);
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: .5em 1em;
 }
