@@ -1,0 +1,96 @@
+:root {
+    --temporal-color: #fff;
+    --primary-color: #cc3333;
+    --secondary-color: #bbcccc;
+    --tertiary-color: #523;
+    --text-color: #566;
+    --height-h1: 50px;
+    --heigh-h2: 32px;
+    --height-h3: 25px;
+    --height-base: 20px;
+    --height-small: 16px;
+    --height-smaller: 14px;
+}
+
+.pruebafix{
+    position: fixed;
+}
+
+.main-header {
+    display: flex;
+    background-color: var(--primary-color);
+}
+
+.nav {
+    margin-left: auto;
+    align-self: center;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+
+}
+
+.menu-item {
+    position: relative;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.menu-link {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    padding: 0 .5em;
+}
+
+.menu-item:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.header-logo {
+    height: 3em;
+}
+
+.header-logo {
+    height: 2em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding-left: 3em;
+}
+
+.banner {
+    display: flex;
+    height: 100vh;
+    background-image:  url("../img/Banner_obscuro.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex-direction: column;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    align-items: center;
+}
+
+.logo-banner {
+    height: 10%;
+    width: 10%;
+    margin-bottom: 1em;
+    justify-content: center;
+}
+
+.banner-h1 {
+    color: var(--temporal-color);
+    font-size: var(--height-h1);
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.banner-p {
+    color: var(--temporal-color);
+    font-size: var(--heigh-h2);
+    text-align: center;
+}
