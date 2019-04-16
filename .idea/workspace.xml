@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aaa5433-a246-48f6-b0ad-7c6abbb2263c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/Banner.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/Banner_obscuro.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/Guias de estilos.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/JL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/JL_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/email-filled-closed-envelope.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/location.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/location.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/mockup.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/phonebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/phonebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/placeholder-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/services/090324-F-6794V-063.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/services/EXTINCION.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/services/FM200_Three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/services/Fire_hose_cabinet_on_wall.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/services/Fire_sprinkler.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/services/alarm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/services/experience.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/services/hpompe_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/services/maintenance.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/static/img/services/pull station.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/static/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +23,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/core/templates/home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="78">
-                  <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+                <state relative-caret-position="170">
+                  <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
                 </state>
               </provider>
             </entry>
@@ -59,17 +36,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/core/static/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/core/static/css/normalize.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5916">
-                  <caret line="348" column="1" selection-start-line="348" selection-start-column="1" selection-end-line="348" selection-end-column="1" />
+                <state relative-caret-position="252">
+                  <caret line="147" column="18" selection-start-line="147" selection-start-column="18" selection-end-line="147" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -99,12 +67,12 @@
         <option value="$PROJECT_DIR$/jlcontraincendio/settings.py" />
         <option value="$PROJECT_DIR$/core/static/css/normalize.css" />
         <option value="$PROJECT_DIR$/core/static/css/styles.css" />
-        <option value="$PROJECT_DIR$/core/templates/home.html" />
         <option value="$PROJECT_DIR$/core/static/css/main.css" />
+        <option value="$PROJECT_DIR$/core/templates/home.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="960" />
     <option name="y" value="27" />
     <option name="width" value="960" />
@@ -140,7 +108,7 @@
               <item name="jlcontraincendio" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,6 +149,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="jlcontraincendio.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -217,23 +186,25 @@
       <workItem from="1555337151452" duration="2368000" />
       <workItem from="1555340580440" duration="2183000" />
       <workItem from="1555351169182" duration="2966000" />
-      <workItem from="1555364209113" duration="5646000" />
+      <workItem from="1555364209113" duration="6147000" />
+      <workItem from="1555422139237" duration="2752000" />
+      <workItem from="1555424976634" duration="6319000" />
+      <workItem from="1555435809800" duration="597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30535000" />
+    <option name="totallyTimeSpent" value="40704000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="948" extended-state="7" />
-    <editor active="true" />
+    <frame x="960" y="27" width="960" height="948" extended-state="4" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5284464" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32883435" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3296433" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -242,7 +213,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3296433" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32841328" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32595325" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -292,6 +263,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/static/img/JL.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/static/img/JL_white.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/static/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5916">
@@ -299,23 +276,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/static/img/JL.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/static/img/JL_white.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="170">
+          <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="252">
+          <caret line="147" column="18" selection-start-line="147" selection-start-column="18" selection-end-line="147" selection-end-column="18" />
         </state>
       </provider>
     </entry>

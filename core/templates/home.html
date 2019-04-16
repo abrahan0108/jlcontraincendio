@@ -9,20 +9,21 @@
             content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>jlcontraincendio</title>
-    <link rel="stylesheet" href="{% static "css/normalize.css" %}">
-    <link rel="stylesheet" href="{% static "css/main.css" %}">
+    <link rel="stylesheet" href="{% static "css/normalize.css" %}" type="text/css">
+    <link rel="stylesheet" href="{% static "css/main.css" %}" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
 </head>
 <body>
-    <div class="pruebafix">
+    <div class="banner-fix">
         <header class="main-header">
         <div class="header-logo"><img class="header-logo" src="{% static "img/JL_white.png" %}" alt=""></div>
         <nav class="nav">
             <ul class="menu">
                 <li class="menu-item"><a class="menu-link" href="#">Inicio</a></li>
-                <li class="menu-item"><a class="menu-link" href="#">Nosotros</a></li>
-                <li class="menu-item"><a class="menu-link" href="#">Soluciones</a></li>
-                <li class="menu-item"><a class="menu-link" href="#">Experiencia</a></li>
-                <li class="menu-item"><a class="menu-link" href="#">Contacto</a></li>
+                <li class="menu-item"><a class="menu-link" href="#us">Nosotros</a></li>
+                <li class="menu-item"><a class="menu-link" href="#solutions">Soluciones</a></li>
+                <li class="menu-item"><a class="menu-link" href="#experience">Experiencia</a></li>
+                <li class="menu-item"><a class="menu-link" href="#contact">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -34,83 +35,82 @@
         <p class="banner-p">Instalación, suministro y </br>diseño de sistemas de </br>supresión y detección de fuego.</p>
     </div>
 
-    <div class="section">
-        <h2>Nosotros</h2>
-        <h3>JL Contra Incendio</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, asperiores beatae dignissimos doloremque impedit iure magni obcaecati officia, perspiciatis sunt tempora vitae? Aliquam at doloribus iusto, molestiae molestias repudiandae vitae!</p>
-        <h3>Misión</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum cumque dicta ex excepturi necessitatibus nostrum praesentium quae vel. A amet atque aut eos excepturi fuga fugiat nisi optio sunt velit.</p>
-        <h3>Visión</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum cumque dicta ex excepturi necessitatibus nostrum praesentium quae vel. A amet atque aut eos excepturi fuga fugiat nisi optio sunt velit.</p>
+    <div class="section" id="us">
+        <h2 class="section-name">Nosotros</h2>
+        <h3 class="section-title">JL Contra Incendio</h3>
+        <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, asperiores beatae dignissimos doloremque impedit iure magni obcaecati officia, perspiciatis sunt tempora vitae? Aliquam at doloribus iusto, molestiae molestias repudiandae vitae!</p>
+        <h3 class="section-title">Misión</h3>
+        <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum cumque dicta ex excepturi necessitatibus nostrum praesentium quae vel. A amet atque aut eos excepturi fuga fugiat nisi optio sunt velit.</p>
+        <h3 class="section-title">Visión</h3>
+        <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum cumque dicta ex excepturi necessitatibus nostrum praesentium quae vel. A amet atque aut eos excepturi fuga fugiat nisi optio sunt velit.</p>
     </div>
 
     <div class="section">
-        <h2>Soluciones</h2>
+        <h2 class="section-name" id="solutions">Soluciones</h2>
         <div class="card">
-            <h3>Detección y Alarma</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur consectetur deleniti laboriosam quas. Assumenda eaque expedita nam necessitatibus officia, quod rem repellat saepe. Autem doloremque id libero nesciunt quisquam?</p>
+            <h3 class="section-title">Detección y Alarma</h3>
+            <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur consectetur deleniti laboriosam quas. Assumenda eaque expedita nam necessitatibus officia, quod rem repellat saepe. Autem doloremque id libero nesciunt quisquam?</p>
             <img src="" alt="">
         </div>
         <div class="card">
-            <h3>Sistema de Rociadores</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur consectetur deleniti laboriosam quas. Assumenda eaque expedita nam necessitatibus officia, quod rem repellat saepe. Autem doloremque id libero nesciunt quisquam?</p>
+            <h3 class="section-title">Sistema de Rociadores</h3>
+            <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur consectetur deleniti laboriosam quas. Assumenda eaque expedita nam necessitatibus officia, quod rem repellat saepe. Autem doloremque id libero nesciunt quisquam?</p>
             <img src="" alt="">
         </div>
         <div class="card">
-            <h3>Equipo de Bombeo</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur consectetur deleniti laboriosam quas. Assumenda eaque expedita nam necessitatibus officia, quod rem repellat saepe. Autem doloremque id libero nesciunt quisquam?</p>
+            <h3 class="section-title">Equipo de Bombeo</h3>
+            <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur consectetur deleniti laboriosam quas. Assumenda eaque expedita nam necessitatibus officia, quod rem repellat saepe. Autem doloremque id libero nesciunt quisquam?</p>
             <img src="" alt="">
         </div>
         <div class="card">
-            <h3>Red de Hidrantes</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur consectetur deleniti laboriosam quas. Assumenda eaque expedita nam necessitatibus officia, quod rem repellat saepe. Autem doloremque id libero nesciunt quisquam?</p>
+            <h3 class="section-title">Red de Hidrantes</h3>
+            <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur consectetur deleniti laboriosam quas. Assumenda eaque expedita nam necessitatibus officia, quod rem repellat saepe. Autem doloremque id libero nesciunt quisquam?</p>
             <img src="" alt="">
         </div>
         <div class="card">
-            <h3>Agentes Limpios</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur consectetur deleniti laboriosam quas. Assumenda eaque expedita nam necessitatibus officia, quod rem repellat saepe. Autem doloremque id libero nesciunt quisquam?</p>
+            <h3 class="section-title">Agentes Limpios</h3>
+            <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur consectetur deleniti laboriosam quas. Assumenda eaque expedita nam necessitatibus officia, quod rem repellat saepe. Autem doloremque id libero nesciunt quisquam?</p>
             <img src="" alt="">
         </div>
         <div class="card">
-            <h3>Sistemas de Diluvio</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur consectetur deleniti laboriosam quas. Assumenda eaque expedita nam necessitatibus officia, quod rem repellat saepe. Autem doloremque id libero nesciunt quisquam?</p>
+            <h3 class="section-title">Sistemas de Diluvio</h3>
+            <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur consectetur deleniti laboriosam quas. Assumenda eaque expedita nam necessitatibus officia, quod rem repellat saepe. Autem doloremque id libero nesciunt quisquam?</p>
             <img src="" alt="">
         </div>
         <div class="card">
-            <h3>Señalización</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur consectetur deleniti laboriosam quas. Assumenda eaque expedita nam necessitatibus officia, quod rem repellat saepe. Autem doloremque id libero nesciunt quisquam?</p>
+            <h3 class="section-title">Señalización</h3>
+            <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur consectetur deleniti laboriosam quas. Assumenda eaque expedita nam necessitatibus officia, quod rem repellat saepe. Autem doloremque id libero nesciunt quisquam?</p>
             <img src="" alt="">
         </div>
         <div class="card">
-            <h3>Mantenimiento</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur consectetur deleniti laboriosam quas. Assumenda eaque expedita nam necessitatibus officia, quod rem repellat saepe. Autem doloremque id libero nesciunt quisquam?</p>
+            <h3 class="section-title">Mantenimiento</h3>
+            <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur consectetur deleniti laboriosam quas. Assumenda eaque expedita nam necessitatibus officia, quod rem repellat saepe. Autem doloremque id libero nesciunt quisquam?</p>
             <img src="" alt="">
         </div>
     </div>
 
-    <div class="experience">
-        <h2>Experiencia</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio explicabo nemo neque perferendis possimus quia rem veniam veritatis. Aliquid consequuntur dolorum libero nemo quis recusandae repellat sapiente temporibus, vero voluptatum!</p>
+    <div class="section">
+        <h2 class="section-name" id="experience">Experiencia</h2>
+        <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio explicabo nemo neque perferendis possimus quia rem veniam veritatis. Aliquid consequuntur dolorum libero nemo quis recusandae repellat sapiente temporibus, vero voluptatum!</p>
         <img src="" alt="">
     </div>
 
     <div class="contact-form">
-        <h2>Contactanos</h2>
+        <h2 class="section-name" id="contact">Contacto</h2>
         <form action="">
-            <label for="name">Nombre</label>
-            <input type="text" id="Name">
-            <label for="mail">E-mail</label>
-            <input type="email" id="Mail">
-            <label for="phone">Teléfono</label>
-            <input type="tel" id="Phone">
-            <label for="message">Mensaje</label>
-            <textarea name="message" id="subject" cols="30" rows="10" placeholder="Escribenos...."></textarea>
+            <label class="form-item" for="name">*Nombre</label></br>
+            <span><input type="text" id="Name"></span>
+            <label class="form-item" for="mail">*E-mail</label></br>
+            <span><input type="email" id="Mail"></span>
+            <label class="form-item" for="phone">*Teléfono</label></br>
+            <span><input type="tel" id="Phone"></span>
+            <label class="form-item" or="message">*Mensaje</label></br>
+            <span><textarea name="message" id="subject" cols="30" rows="10" placeholder="Escribenos...."></textarea></span>
             <input type="submit" value="Enviar">
         </form>
-        <footer>
+    </div>
+<footer class="footer">
             <p>Todos los derechos reservados 2019 | <ul>Política de provacidad</ul></p>
         </footer>
-    </div>
-
 </body>
 </html>
