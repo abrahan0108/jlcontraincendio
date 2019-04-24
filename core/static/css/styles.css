@@ -1,3 +1,149 @@
-h1 {
-    font-size: 3em;
+:root {
+    --temporal-color: #fff;
+    --primary-color: #cc3333;
+    --secondary-color: #bbcccc;
+    --tertiary-color: #523;
+    --text-color: #122;
+    --footer-color: #566;
+    --height-h1: 50px;
+    --heigh-h2: 32px;
+    --height-h3: 25px;
+    --height-base: 20px;
+    --height-small: 16px;
+    --height-smaller: 14px;
+    --font-title: 'Open Sans', sans-serif;
+    --font-description: 'Lato', sans-serif;
+}
+
+.banner-fix{
+    position: fixed;
+    width: 100%;
+}
+
+.main-header {
+    display: flex;
+    background-color: var(--primary-color);
+}
+
+.nav {
+    margin-left: auto;
+    align-self: center;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+
+}
+
+.menu-item {
+    position: relative;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.menu-link {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    padding: 0 .5em;
+}
+
+.menu-item:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.header-logo {
+    height: 3em;
+}
+
+.header-logo {
+    height: 2em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding-left: 3em;
+}
+
+.banner {
+    display: flex;
+    height: 100vh;
+    background-image:  url("../img/Banner_obscuro.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex-direction: column;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    align-items: center;
+}
+
+.logo-banner {
+    height: 10%;
+    width: 10%;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    justify-content: center;
+}
+
+.banner-h1 {
+    color: var(--temporal-color);
+    font-size: var(--height-h1);
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.banner-p {
+    color: var(--temporal-color);
+    font-size: var(--heigh-h2);
+    text-align: center;
+}
+
+.section {
+    /*display: flex;*/
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+
+.section-name {
+    color: var(--primary-color);
+    font-size: var(--height-h1);
+    font-family: var(--font-title);
+    display: block;
+}
+
+.section-title {
+    color: var(--tertiary-color);
+    font-size: var(--height-h3);
+    font-family: var(--font-title);
+}
+
+.section-description {
+    color: var(--text-color);
+    font-size: var(--height-base);
+    font-family: var(--font-description);
+}
+
+.contact-form {
+    background-color: var(--text-color);
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+
+.footer{
+    background-color: var(--footer-color);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.form-item {
+    font-family: var(--font-description);
+    font-size: var(--height-base);
+    color: var(--secondary-color);
+    display: block;
 }
